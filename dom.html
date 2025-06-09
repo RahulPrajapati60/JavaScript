@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const div = document.createElement('div');
+        console.log(div);
+        div.className = 'main';
+        div.id = Math.round(Math.random() * 10 + 1); // Fixed 'math' to 'Math'
+        div.setAttribute("title", "generated title"); // Fixed typo in 'gevernate'
+        div.style.backgroundColor = "green";
+        div.style.padding = '12px';
+        const addText = document.createTextNode('Rahul'); // Fixed 'createtextNode' to 'createTextNode'
+        div.appendChild(addText);
+        document.body.appendChild(div);
+
+        function addlang(langName){
+            const li = document.createElement('li');
+            li.innerHTML = `${langName}`;
+            document.querySelector('.language').appendChild(li);
+        }
+        addlang('python');
+    </script>
+</body>
+</html>
