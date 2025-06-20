@@ -7,14 +7,14 @@ This guide explains the basics of JavaScript functions, including how to invoke 
 Functions in JavaScript are recognizable by their parentheses `()`. You can call a function in the following ways:
 
 ```javascript
+
 // Function with no arguments
 nameOfTheFunction();
 
 // Function with multiple arguments
-
 functionThatTakesInput("the input", 5, true);
 function nameOfTheFunction() {
     // Content of the function
-}```
+}
 
-##Writing Functions
+## Writing Functions
