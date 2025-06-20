@@ -6,4 +6,4 @@ We have been calling functions for a while already. Remember prompt(), console.
 
  '''function nameOfTheFunction() {
  //content of the function
- }
+ }'''
