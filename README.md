@@ -11,4 +11,8 @@ Functions in JavaScript are recognizable by their parentheses `()`. You can call
 nameOfTheFunction();
 
 // Function with multiple arguments
+
 functionThatTakesInput("the input", 5, true);
+function nameOfTheFunction() {
+    // Content of the function
+}
