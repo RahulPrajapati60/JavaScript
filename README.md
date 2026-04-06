@@ -37,6 +37,9 @@ let num = 10;        // number
 let name = "Guru";  // string
 let isOk = true;    // boolean
 let obj = { x: 1 }; // object
+                    // null
+                    // Undefined
+                    // BigInt
 ```
 
 ---
